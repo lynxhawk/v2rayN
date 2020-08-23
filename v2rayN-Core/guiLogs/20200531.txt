@@ -1,0 +1,155 @@
+--------------------------------info[15:03:46]--------------------------------
+System.Exception: v2rayN start up v2rayN - V3.18 - 2020/04/23
+
+ 
+--------------------------------info[15:03:52]--------------------------------
+System.Exception: Webserver prefixes http://*:10810/pac/
+
+ 
+--------------------------------拒绝访问。[15:03:52]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.Base.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[15:03:52]--------------------------------
+System.Exception: Webserver InitServer 拒绝访问。
+
+ 
+--------------------------------info[15:03:52]--------------------------------
+System.Exception: WebserverB at 127.0.0.1
+
+ 
+--------------------------------info[15:03:52]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:03:52]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:03:54]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:04:30]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:05:22]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:05:23]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:05:44]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[15:05:44]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:05:44]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------基础连接已经关闭: 发送时发生错误。[15:05:44]--------------------------------
+System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 v2rayN.Handler.DownloadHandle.Ws_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+
+ 
+--------------------------------info[15:05:45]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:05:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:05:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:07:23]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:08:29]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:08:29]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[15:08:29]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:08:30]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:08:30]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:08:51]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:09:28]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:10:05]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:10:35]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:11:20]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:11:50]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:12:20]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:12:50]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:13:43]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[15:46:07]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:01:07]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:01:07]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:10:40]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 

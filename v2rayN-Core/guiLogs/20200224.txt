@@ -1,0 +1,105 @@
+--------------------------------info[00:25:24]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[00:25:40]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[00:53:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[00:59:10]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[01:07:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[01:24:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[01:40:40]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[01:59:12]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[02:08:42]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[02:23:11]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[02:45:45]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[02:53:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[02:59:15]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:45:41]--------------------------------
+System.Exception: v2rayN start up v2rayN - V3.5 - 2020/01/15
+
+ 
+--------------------------------info[16:45:44]--------------------------------
+System.Exception: Webserver prefixes http://*:10810/pac/
+
+ 
+--------------------------------拒绝访问。[16:45:44]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.Base.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[16:45:44]--------------------------------
+System.Exception: Webserver InitServer 拒绝访问。
+
+ 
+--------------------------------info[16:45:44]--------------------------------
+System.Exception: WebserverB at 127.0.0.1
+
+ 
+--------------------------------info[16:45:44]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:45:45]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:45:45]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:45:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:45:50]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。[16:49:49]--------------------------------
+System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.ReadByte()
+   在 v2rayN.Base.HttpWebServerB.ReadStream(Stream inputStream)
+   在 v2rayN.Base.HttpWebServerB.ProcessThread(Object obj)
+
+ 
